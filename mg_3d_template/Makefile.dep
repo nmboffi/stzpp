@@ -1,0 +1,11 @@
+problem_simple.o: problem_simple.cc common.hh problem_simple.hh \
+  geometry.hh region.cc region.hh buffer.hh multigrid.cc multigrid.hh
+manu_ps_vec.o: manu_ps_vec.cc common.hh manu_ps_vec.hh geometry.hh \
+  vec3.hh mat3.hh region.cc region.hh buffer.hh multigrid.cc \
+  multigrid.hh
+helmholtz.o: helmholtz.cc helmholtz.hh buffer.hh geometry.hh common.hh \
+  multigrid.hh region.hh region.cc multigrid.cc
+buffer.o: buffer.cc buffer.hh common.hh
+common.o: common.cc common.hh
+geometry.o: geometry.cc common.hh geometry.hh region.hh buffer.hh
+mat3.o: mat3.cc mat3.hh vec3.hh
