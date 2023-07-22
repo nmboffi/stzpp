@@ -1,4 +1,4 @@
-# stzpp
+# Shear Transformation Zone++
 This repository contains code to reproduce the results of publications [1] and [2].
 
 In addition, the code comprises an extensive simulation packag for high-performance, parallel, MPI-Based simulation of plastic deformation in three-dimensional amorphous glasses via the shear transformation zone theory of amorphous plasticity. While originally used to study deformation of metallic glasses, the software has applications in the simulation of many other forms of disordered materials.
